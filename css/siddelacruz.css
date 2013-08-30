@@ -1,0 +1,125 @@
+body {
+  padding-bottom: 0px;
+  /*color: #5a5a5a;*/
+  color: #ffffff;
+  background-color: #1B1B1B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  line-height: 20px;
+  /*overflow:hidden;*/
+}
+h1 {
+  font-weight: 300;
+}
+
+/* Navbar */
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: -90px;
+}
+.navbar .navbar-inner {
+  border: 0;
+}
+.navbar .brand {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar .nav > li > a {
+  padding: 20px 20px;
+}
+.navbar .btn-navbar {
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 979px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container.navbar-wrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+  .navbar-inner {
+    border-radius: 0;
+    margin: -20px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-inner {
+    margin: -20px;
+  }
+  .marketing .span4 + .span4 {
+    margin-top: 40px;
+  }
+}
+
+/* Custom */
+.hero-unit {
+  background-color: #1b1b1b;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding: 30px;
+  opacity: .85;
+}
+#home {
+  background:url(../img/slide-00.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 20px;
+}
+#music {
+  background:url(../img/slide-01.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 20px;
+}
+#film {
+  background:url(../img/slide-02.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 20px;
+}
+#bio {
+  background:url(../img/slide-03.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 20px;
+}
+#contact {
+  background:url(../img/slide-04.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 300px;
+  padding: 100px 20px;
+}
+.spacer {
+  min-height: 10px;
+  background-color: #1B1B1B;
+}
+
+a:link {
+  /*color:#ffffff;*/
+  text-decoration:none;
+}
+a:visited {
+  /*color:#ffffff;*/
+  text-decoration:none;
+}
+a:hover {
+  /*color:#5a5a5a;*/
+  text-decoration:none;
+}
+a:active {
+  /*color:#ffffff;*/
+  text-decoration:none;
+}

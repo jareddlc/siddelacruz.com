@@ -96,6 +96,12 @@ h1 {
   min-height: 720px;
   padding: 100px 20px;
 }
+#clients {
+  background:url(../img/slide-05.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 20px;
+}
 #contact {
   background:url(../img/slide-04.jpg) 50% 0 no-repeat fixed;
   background-size: cover;

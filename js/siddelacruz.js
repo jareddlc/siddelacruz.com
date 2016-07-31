@@ -28,15 +28,8 @@ $(document).ready(function(){
     }
     if(err == 0){
       //alert(JSON.stringify(payload));
-      $.post("contact.php", payload, function(data) {
-        if(data == "200"){
-          alert("Success: email sent!");
-        }
-        else if(data == "501")
-          alert("Error: failed to send email.");
-        else
-          alert("Error sending email.");
-      },"json");
+      var mailto = "mailto:sid@siddelacruz.com?subject=" + encodeURIComponent("Contact Email") + "&body=" + encodeURIComponent(payload["text"]);
+      location.href = mailto;
     }
     return false;
   });

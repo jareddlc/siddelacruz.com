@@ -1,7 +1,0 @@
-version: '2'
-services:
-  siddelacruz.com:
-    container_name: "siddelacruz.com"
-    build: .
-    ports:
-      - "80:80"

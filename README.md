@@ -7,6 +7,6 @@ siddelacruz.com
 
 ```
 $ docker build -t siddelacruz.com .
-$ docker run --name siddelacruz.com -d -p 80 siddelacruz.com
-$ docker-compose up -d
+$ docker run -d --name siddelacruz_com -p 80 siddelacruz.com
+$ docker service create --replicas 1 --name siddelacruz_com -p 80 siddelacruz.com
 ```

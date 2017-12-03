@@ -2,13 +2,6 @@ $(document).ready(function(){
 
   $('#navi').localScroll(800);
 
-  /*$('#navi a').click(function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-    if ($('.btn').is(":visible"))
-      $('.btn').click();
-  });*/
-
   $('#navi a').on('click', function(){
     $(".btn-navbar").click();
   });
@@ -27,7 +20,6 @@ $(document).ready(function(){
       alert("Please enter a name.");
     }
     if(err == 0){
-      //alert(JSON.stringify(payload));
       var mailto = "mailto:sid@siddelacruz.com?subject=" + encodeURIComponent("Contact Email") + "&body=" + encodeURIComponent(payload["text"]);
       location.href = mailto;
     }
